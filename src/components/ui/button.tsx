@@ -6,23 +6,21 @@ export const Button = ({ as, children, href, className }: ButtonProps) => {
     switch (as) {
         case "link":
             return (
-                <button 
-                    className={
-                        cn("border-[#fcbcb2] uppercase hover:bg-transparent text-[#fcbcb2]", className)
-                    }
+                <Link 
+                    href={`${href}`}
+                    className={cn("border-[#fcbcb2] uppercase hover:bg-transparent text-[#fcbcb2]", className)}
                 >
                     {children}
-                </button>
+                </Link>
             );
 
         default:
-           <Link 
-                href={`${href}`}
-                className={
-                    cn("border-[#fcbcb2] uppercase hover:bg-transparent text-[#fcbcb2]", className)
-                }
-            >
-                {children}
-            </Link>;
+            return (
+                <button 
+                    className={cn("border-[#fcbcb2] uppercase hover:bg-transparent text-[#fcbcb2]", className)}
+                >
+                    {children}
+                </button>
+            )
     } 
 }
