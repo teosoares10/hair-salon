@@ -9,8 +9,8 @@ export const Button = ({ as, children, href, className }: ButtonProps) => {
                 <Link 
                     href={`${href}`}
                     className={
-                        cn(`bg-[#fcbcb2] text-white border-[#fcbcb2] border-2 uppercase hover:bg-transparent 
-                            hover:text-[#fcbcb2] px-4 py-2`, 
+                        cn(`bg-[#fcbcb2] text-white uppercase hover:bg-[rgba(252,188,178,.9)] 
+                            px-4 py-2`, 
                             className
                         )
                     }
@@ -23,8 +23,8 @@ export const Button = ({ as, children, href, className }: ButtonProps) => {
             return (
                 <button 
                     className={
-                        cn(`bg-[#fcbcb2] text-white border-[#fcbcb2] border-2 uppercase hover:bg-transparent 
-                            hover:text-[#fcbcb2] px-4 py-2`, 
+                        cn(`bg-[#fcbcb2] text-white uppercase hover:bg-[rgba(252,188,178,.9) 
+                            px-4 py-2`, 
                             className
                         )
                     }
