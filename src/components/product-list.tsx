@@ -15,7 +15,7 @@ const data = [
     {
       "nome": "Peruca Bob",
       "preco": 150000.00,
-      "imagem": "/img/outre-synthetic-hd-transparent-lace-front-wig-hudson.webp"
+      "imagem": "/img/sensationnel-synthetic-kinky-edge-13x6-hd-lace-wig-kinky-blow-out-1.webp"
     },
     {
       "nome": "Peruca Dreads",
