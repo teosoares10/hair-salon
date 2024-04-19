@@ -13,7 +13,7 @@ export const Category = () => {
             <CategoryItem 
                 img="/img/hair.png" 
                 alt="" 
-                title="Alongue e volumize seus cabelos com as nossas hair extensions!"
+                title="Alongue e volumize seus cabelos com as nossas extensões de cabelos!"
                 description="Adicione comprimento, volume e estilo aos seus cabelos com as nossas hair extensions de alta qualidade. Diversas opções disponíveis para combinar com seu cabelo natural." 
             />
         </section>
