@@ -58,7 +58,7 @@ export const ProductList = () => {
             >
                 novidades
             </Typography>
-            <ul className="mx-auto w-[65rem] flex flex-wrap gap-8 justify-center items-center text-white">
+            <ul className="mx-auto lg:w-[65rem] flex flex-wrap gap-8 justify-center items-center text-white">
                 {data.map((wig, i) => (
                     <ProductItem
                         key={i} 
