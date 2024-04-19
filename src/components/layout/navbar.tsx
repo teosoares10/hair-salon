@@ -7,14 +7,14 @@ import Image from "next/image"
 export const Navbar = () => {
     return (
         <nav>
-            <section className="flex justify-between items-center py-2 px-4">
-                <div className="flex items-center gap-2">
+            <section className="flex lg:flex-nowrap flex-wrap justify-between items-center py-2 px-4">
+                <div className="flex lg:items-center items-start gap-2">
                     <MapPin />
                     <Typography as="span">
                         Kero Benguela, Av Gen. João de Almeida, Benguela, Angola
                     </Typography>
                 </div>
-                <div className="flex gap-4 items-center">
+                <div className="flex gap-4 items-center mt-4 lg:mt-0">
                     <PhoneCall />
                     <Typography as="span" className="text-lg tracking-widest">957704613</Typography>
                 </div>
