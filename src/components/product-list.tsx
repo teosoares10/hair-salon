@@ -4,22 +4,22 @@ import { Typography } from "./ui/typography"
 const data = [
     {
       "nome": "Peruca Longa Lisa",
-      "preco": 120.00,
+      "preco": 120000.00,
       "imagem": "/img/outre-synthetic-hd-transparent-lace-front-wig-hudson.webp"
     },
     {
       "nome": "Peruca Curta Cacheada",
-      "preco": 80.00,
-      "imagem": "/img/outre-synthetic-hd-transparent-lace-front-wig-hudson.webp"
+      "preco": 80000.00,
+      "imagem": "/img/sensationnel-dashly-synthetic-lace-front-wig-lace-unit.webp"
     },
     {
       "nome": "Peruca Bob",
-      "preco": 150.00,
+      "preco": 150000.00,
       "imagem": "/img/outre-synthetic-hd-transparent-lace-front-wig-hudson.webp"
     },
     {
       "nome": "Peruca Dreads",
-      "preco": 100.00,
+      "preco": 100000.00,
       "imagem": "/img/outre-synthetic-hd-transparent-lace-front-wig-hudson.webp"
     },
     {
