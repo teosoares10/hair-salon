@@ -17,7 +17,7 @@ export const CategoryItem = ({img, alt, title}: CategoryItemProps) => {
             <Button
                 as="link" 
                 href="/shop" 
-                className={`hidden px-[4rem] absolute left-[30%] top-[40%] origin-center capitalize 
+                className={`hidden px-[4rem] absolute lg:left-[30%] left-[25%] top-[40%] origin-center capitalize 
                     text-white text-xl group-hover:inline-block`}
             >
                 {title}
