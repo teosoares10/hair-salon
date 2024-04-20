@@ -6,13 +6,13 @@ export const Category = () => {
             <CategoryItem 
                 img="/img/banner.png" 
                 alt="" 
-                title="Transforme seu visual com as nossas perucas!"
+                title="Perucas"
             />
 
             <CategoryItem 
                 img="/img/hair.png" 
                 alt="" 
-                title="Alongue e volumize seus cabelos com os nossos cabelos!"
+                title="Cabelos"
             />
         </section>
     )
