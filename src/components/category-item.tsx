@@ -4,7 +4,7 @@ import { Typography } from "./ui/typography"
 
 export const CategoryItem = ({ img, alt, title }: CategoryItemProps) => {
     return (
-        <div className="lg:w-[38rem] w-full h-[20rem] bg-gray-600 mx-4 lg:mx-0 rounded-lg">
+        <div className="lg:w-[20rem] w-full h-[26rem] bg-gray-600 mx-4 lg:mx-0 rounded-lg">
             <Image 
                 src={img} 
                 alt={`${alt}`} 
