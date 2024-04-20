@@ -12,7 +12,7 @@ export const CategoryItem = ({ img, alt, title }: CategoryItemProps) => {
                 height={520} 
                 className="h-full w-full" 
             />
-            <Typography as="h3" className="lg:w-[25rem] text-white text-2xl font-bold">{title}</Typography>
+            <Typography as="h3" className="lg:w-[25rem] text-gray-600 text-2xl font-bold">{title}</Typography>
         </div>
     )
 }
