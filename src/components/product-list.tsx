@@ -49,7 +49,7 @@ export const ProductList = () => {
             >
                 novidades
             </Typography>
-            <ul className="mx-4 lg:mx-auto lg:w-[85rem] flex flex-wrap gap-8 justify-center items-center text-white text-center">
+            <ul className="mx-4 lg:mx-auto lg:w-[80rem] flex flex-wrap gap-8 justify-center items-center text-white text-center">
                 {data.map((wig, i) => (
                     <ProductItem
                         key={i} 
