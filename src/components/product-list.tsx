@@ -4,40 +4,40 @@ import { Typography } from "./ui/typography"
 const data = [
     {
       "nome": "Peruca Longa Lisa",
-      "imagem": "/img/outre-synthetic-hd-transparent-lace-front-wig-hudson.webp"
+      "imagem": "/img/gallery-1.webp"
     },
     {
       "nome": "Peruca Curta Cacheada",
-      "imagem": "/img/sensationnel-dashly-synthetic-lace-front-wig-lace-unit.webp"
+      "imagem": "/img/gallery-5.jpg"
     },
     {
       "nome": "Peruca Bob",
-      "imagem": "/img/sensationnel-synthetic-kinky-edge-13x6-hd-lace-wig-kinky-blow-out-1.webp"
+      "imagem": "/img/gallery-8.webp"
     },
     {
       "nome": "Peruca Dreads",
-      "imagem": "/img/outre-synthetic-hd-transparent-lace-front-wig-hudson.webp"
+      "imagem": "/img/gallery-2.jpg"
     },
     {
       "nome": "Peruca Rabo de Cavalo",
-      "imagem": "/img/outre-synthetic-hd-transparent-lace-front-wig-hudson.webp"
+      "imagem": "/img/gallery-10.jpg"
     },
     {
       "nome": "Peruca Ombré",
-      "imagem": "/img/outre-synthetic-hd-transparent-lace-front-wig-hudson.webp"
+      "imagem": "/img/gallery-13.jpg"
     },
     {
       "nome": "Peruca Cosplay",
-      "imagem": "/img/outre-synthetic-hd-transparent-lace-front-wig-hudson.webp"
+      "imagem": "/img/gallery-7.webp"
     },
     {
       "nome": "Peruca Masculina",
-      "imagem": "/img/outre-synthetic-hd-transparent-lace-front-wig-hudson.webp"
+      "imagem": "/img/gallery-11.webp"
     },
-    // {
-    //   "nome": "Peruca Infantil",
-    //   "imagem": "/img/outre-synthetic-hd-transparent-lace-front-wig-hudson.webp"
-    // }
+    {
+      "nome": "Peruca Infantil",
+      "imagem": "/img/gallery-1.webp"
+    }
   ]
 
 export const ProductList = () => {
@@ -49,7 +49,7 @@ export const ProductList = () => {
             >
                 novidades
             </Typography>
-            <ul className="mx-auto lg:w-[65rem] flex flex-wrap gap-8 justify-center items-center text-white">
+            <ul className="mx-4 lg:mx-auto lg:w-[85rem] flex flex-wrap gap-8 justify-center items-center text-white text-center">
                 {data.map((wig, i) => (
                     <ProductItem
                         key={i} 
