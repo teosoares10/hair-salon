@@ -17,13 +17,6 @@ export const CategoryItem = ({img, alt, title, description}: CategoryItemProps) 
             <div className=" pl-4 lg:pl-8 pt-4 lg:pt-8">
                 <Typography as="h3" className="lg:w-[25rem] text-white text-2xl font-bold">{title}</Typography>
                 <Typography className="lg:w-[24rem] text-gray-200 py-4 pr-2">{description}</Typography>
-                <Button
-                    as="link" 
-                    href="/shop" 
-                    className="absolute first-letter:uppercase lowercase text-white text-lg px-8"
-                >
-                    ir a loja
-                </Button>
             </div>
         </div>
     )
