@@ -1,7 +1,6 @@
 import { CategoryItemProps } from "@/types/category-item.types"
 import Image from "next/image"
 import { Typography } from "./ui/typography"
-import { Button } from "./ui/button"
 
 export const CategoryItem = ({ img, alt, title }: CategoryItemProps) => {
     return (
