@@ -10,7 +10,7 @@ export const CategoryItem = ({ img, alt, title }: CategoryItemProps) => {
                 alt={`${alt}`} 
                 width={280} 
                 height={520} 
-                className="h-full opacity-20 lg:opacity-50" 
+                className="h-full" 
             />
             
             <div className=" pl-4 lg:pl-8 pt-4 lg:pt-8">
