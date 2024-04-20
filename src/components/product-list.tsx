@@ -51,7 +51,7 @@ const data = [
 
 export const ProductList = () => {
     return (
-        <section className="my-28 py-4 bg-gray-600">
+        <section className="my-8 py-4 bg-gray-600">
             <Typography 
                 as="h2" 
                 className={`capitalize text-4xl text-center text-white my-4 font-bold`}
