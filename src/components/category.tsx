@@ -2,7 +2,7 @@ import { CategoryItem } from "./category-item"
 
 export const Category = () => {
     return (
-        <section className="flex gap-8 flex-wrap justify-center items-center my-8">
+        <section className="flex gap-8 flex-wrap justify-center items-center mt-8 mb-16">
             <CategoryItem 
                 img="/img/banner.png" 
                 alt="" 
