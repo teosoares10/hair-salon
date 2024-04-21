@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { Typography } from "./ui/typography"
+import { Button } from "./ui/button"
 
 export const Category = () => {
     return (
@@ -7,11 +8,12 @@ export const Category = () => {
             <Image 
                 src="/img/banner.png" 
                 alt="" 
-                width={540} 
-                height={280} 
-                className="lg:w-[25rem] lg:h-[30rem] w-[20rem] h-full mx-4 -mt-28 lg:mt-0 bg-[#fcbcb2] rounded-3xl order-1 lg:order-none" 
+                width={540}
+                height={280}
+                className="lg:w-[25rem] lg:h-[30rem] w-[20rem] h-full mx-4 -mt-20 lg:mt-0 bg-[#fcbcb2] rounded-3xl order-1 lg:order-none" 
             />
-            <div className="lg:space-y-4 lg:w-[40rem] w-full h-[24rem] lg:h-auto mx-4 lg:mx-0 bg-zinc-800 py-8 px-4 lg:px-16 lg:-ml-24 text-center lg:text-left">
+            <div className="lg:space-y-4 lg:w-[40rem] w-full h-[28rem] lg:h-auto mx-4 lg:mx-0 bg-zinc-800 py-8 px-4 lg:px-16 lg:-ml-24 text-center lg:text-left">
+                <Typography className="capitalize text-white">sobre nós</Typography>
                 <Typography 
                     as="h3" 
                     className="text-white lg:text-4xl text-2xl font-bold lg:pt-2"
@@ -22,8 +24,9 @@ export const Category = () => {
                 <Typography className="text-lg mt-4 lg:mt-0 text-white">
                     Descubra uma variedade incrível de perucas de alta qualidade para todos os estilos e ocasiões. Encontre a peruca perfeita para você e surpreenda a todos com um novo visual!
                 </Typography>
+
+                <Button as="link" className="inline-block mt-4 text-gray-600">saiba mais</Button> 
             </div>
-            
         </section>
     )
 }
