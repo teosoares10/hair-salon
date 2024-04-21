@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export const ProductItem = ({ img, alt, href }: ProductItemProps) => {
     return (
-        <section className="w-[16rem] relative">
+        <section className="w-[16rem] relative group">
             <Image src={img} alt={`${alt}`} width={555} height={255} className="w-[20rem] h-[24rem]" />
         </section>
     )
