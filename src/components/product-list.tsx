@@ -43,13 +43,7 @@ const data = [
 export const ProductList = () => {
     return (
         <section className="mt-8 py-4 bg-gray-600">
-            <Typography 
-                as="h2" 
-                className={`capitalize text-4xl text-center text-white my-4 font-bold`}
-            >
-                novidades
-            </Typography>
-            <ul className="mx-4 lg:mx-auto lg:w-[80rem] flex flex-wrap gap-4 justify-center items-center text-white text-center">
+            <ul className="mx-4 lg:mx-1 lg:w-[80rem] flex flex-wrap gap-1 items-center">
                 {data.map((wig, i) => (
                     <ProductItem
                         key={i} 
