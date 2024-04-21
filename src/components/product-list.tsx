@@ -43,7 +43,7 @@ const data = [
 export const ProductList = () => {
     return (
         <section className="mt-8 py-4 bg-gray-600">
-            <ul className="mx-4 lg:mx-1 lg:w-[80rem] flex flex-wrap gap-1 items-center">
+            <ul className="mx-4 lg:mx-1 flex flex-wrap gap-1 items-center">
                 {data.map((wig, i) => (
                     <ProductItem
                         key={i} 
