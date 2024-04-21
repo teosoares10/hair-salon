@@ -3,8 +3,8 @@ import { Typography } from "../ui/typography"
 
 export const Footer = () => {
     return (
-        <footer className=" bg-zinc-800 text-white px-4 py-8">
-            <div className="flex justify-between">
+        <footer className="bg-zinc-800 text-white px-4 py-8">
+            <div className="flex flex-wrap text-center lg:text-left justify-center lg:justify-between space-y-8 lg:space-y-0">
                 <section className="w-[20rem] space-y-4">
                     <Typography as="h3" className="text-xl font-bold tracking-[1rem] mb-4">
                         <span className="inline-flex tracking-normal mr-4 px-2 border capitalize">c</span>
@@ -15,20 +15,20 @@ export const Footer = () => {
                     </Typography>
                 </section>
 
-                <section className="w-[20rem] space-y-4">
+                <section className="w-[20rem] px-4 space-y-4">
                     <Typography as="h3" className="uppercase text-xl font-bold tracking-widest mb-4">
                         contactos
                     </Typography>
-                    <div className="flex items-start gap-2">
+                    <div className="flex items-start justify-center gap-2">
                         <MapPinIcon size={34} />
                         <Typography>Kero Benguela, Av Gen. João de Almeida, Benguela, Angola</Typography>
                     </div>
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center justify-center lg:justify-normal gap-2">
                         <MailIcon />
                         <Typography>teosoares10@gmail.com</Typography>
                     </div>
 
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center justify-center lg:justify-normal gap-2">
                         <PhoneCallIcon />
                         <Typography>+244 957 704 613</Typography>
                     </div>
